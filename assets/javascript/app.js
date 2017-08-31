@@ -14,7 +14,7 @@
 
         var animal = $(this).attr("data-name");
         // var queryURL = "http://www.omdbapi.com/?t=" + animal + "&y=&plot=short&apikey=40e9cece";
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=0149705534b84f72a74112ce7581ade1";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=0149705534b84f72a74112ce7581ade1";
 
         // Creating an AJAX call for the specific movie button being clicked
         $.ajax({
