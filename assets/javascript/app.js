@@ -126,6 +126,8 @@
         // Adding animal from the textbox to our array
         animals.push(animal);
 
+        $("#animal-input").val("");
+
     
 
         // Calling renderButtons which handles the processing of our animal array
